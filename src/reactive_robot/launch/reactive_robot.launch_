@@ -1,0 +1,11 @@
+<launch>
+
+    <!-- Reactive Robot düğümünü başlat -->
+    <node
+        pkg="reactive_robot"
+        type="node.py"
+        name="reactive_robot_node"
+        output="screen"
+        launch-prefix="python3">
+    </node>
+</launch>
